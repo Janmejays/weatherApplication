@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d5375042-cc9f-4433-9c7a-3804e84e929f)Using the free version of openweathermap weather API for Current and forecasted date.
+Using the free version of openweathermap weather API for Current and forecasted date.
 A simple weather app that shows current temperature along with the temperature forecast for the next 5 days (Find Max/Min temperature for each day). All temperatures are in celsius.
 
 API for Current temperature
