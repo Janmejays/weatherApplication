@@ -8,12 +8,12 @@ import {
     ImageBackground,
 } from 'react-native';
 
-const Screens1 = ({ navigation }) => {
+const Login = ({ navigation }) => {
 
     const [title, settitle] = useState('Weather Application')
 
     const onPressLogin = () => {
-        navigation.navigate('Screen2')
+        navigation.navigate('CurrentWeather')
     };
     const onPressForgotPassword = () => {
         // Do something about forgot password operation
@@ -68,7 +68,8 @@ const Screens1 = ({ navigation }) => {
 const styles = StyleSheet.create({
     background: {
         flex: 1,
-        resizeMode: 'cover', // Optional: how the image should be resized to fit the screen
+        resizeMode: 'cover', //Screens1
+        // Optional: darken the background image
     },
     overlay: {
         flex: 1,
@@ -110,4 +111,4 @@ const styles = StyleSheet.create({
         marginBottom: 10
     },
 });
-export default Screens1;
+export default Login;
