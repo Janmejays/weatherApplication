@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const Listing = () => {
+const Forecast = () => {
     return (
         <View>
             <Text>Listing</Text>
@@ -9,6 +9,6 @@ const Listing = () => {
     )
 }
 
-export default Listing
+export default Forecast
 
 const styles = StyleSheet.create({})

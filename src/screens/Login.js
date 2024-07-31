@@ -13,13 +13,17 @@ const Login = ({ navigation }) => {
     const [title, settitle] = useState('Weather Application')
 
     const onPressLogin = () => {
-        navigation.navigate('CurrentWeather')
+        navigation.navigate('Forecast')
     };
     const onPressForgotPassword = () => {
         // Do something about forgot password operation
+        navigation.navigate('Forecast')
+
     };
     const onPressSignUp = () => {
         // Do something about signup operation
+        navigation.navigate('Forecast')
+
     };
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
@@ -69,7 +73,6 @@ const styles = StyleSheet.create({
     background: {
         flex: 1,
         resizeMode: 'cover', //Screens1
-        // Optional: darken the background image
     },
     overlay: {
         flex: 1,
